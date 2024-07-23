@@ -106,3 +106,12 @@ input[type="checkbox"]:checked ~ .main-content .get-fav-items h1{
 input[type="checkbox"]:checked ~ .main-content .item-star sub{
     color: yellow;
 }
+@media (max-width:800px){
+    .inner-info-box{
+        width: 80%;
+        margin-bottom: 25px;
+    }
+    .info-box-rewards-pg{
+        flex-direction: column;
+    }
+}
