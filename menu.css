@@ -152,4 +152,8 @@ input[type="checkbox"]:checked ~ .main-content .merchendise-text{
     .menu-items-box{
         padding-left: 20px;
     }
+    .drinks-img, .food-img, .merchendise-img{
+        height: 60px;
+        width: 60px;
+    }
 }
