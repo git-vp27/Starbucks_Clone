@@ -1,0 +1,171 @@
+@media (max-width: 1440px) and (min-width:1270px){
+    .itemsLeft{
+        margin-right: 25%;
+    }
+    .footer{
+        padding-right: 50px;
+    }
+}
+@media (max-width: 1270px) and (min-width:1000px){
+    .itemsLeft{
+        margin-right: 5%;
+    }
+    #card2{
+        height: 480px;
+    }
+    #card3{
+        height: 340px;
+    }
+    #card4{
+        height: 500px;
+    }
+    .footer{
+        height: 500px;
+        padding: 50px 20px 50px 5px;
+    }
+}
+@media (max-width:1000px) and (min-width: 625px){
+    #signIn, #joinNow, .loc-logo i, .fstext, .findStore{
+        display: none;
+    }
+    .findStore{
+        flex-basis: 0px;
+    }
+    .hamburgerMenu i{
+        display: inline-block;
+    }
+    .itemsLeft{
+        margin-right: 15%;
+    }
+    .darklightMode{
+        margin: 0;
+    }
+    .cards{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .card1, .card2, .card3, .card4{
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        height: 750px;
+        margin: 20px 20px;
+    }
+    .card1-box, .card2-box, .card3-box, .card4-box{
+        width: 100%;
+        padding: 30px 50px;
+    }
+    .card1-img, .card2-img, .card3-img, .card4-img{
+        height: 400px;
+        width: 500px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .card3-img{
+        background-size: contain;
+    }
+    .infobox{
+        padding: 0px 40px;
+        text-align: justify;
+    }
+    .footer{
+        padding: 50px 10px 50px 5px;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width:800px){
+    #signIn, #joinNow, .loc-logo i, .fstext, .findStore{
+        display: none;
+    }
+    .findStore{
+        margin: 0;
+        flex-basis: 0px;
+    }
+    .hamburgerMenu i{
+        display: inline-block;
+    }
+    .itemsLeft{
+        margin-right: 0;
+    }
+    .darklightMode{
+        margin: 0;
+    }
+    .footer{
+        flex-wrap: wrap;
+        padding: 50px 40px 50px 5px;
+    }
+    .infobox{
+        padding: 0 35px;
+        text-align: justify;
+    }
+    .footer div{
+        width: 300px;
+        height: 360px;
+        margin-bottom: 20px;
+        margin: 0;
+    }
+    .footer .socials,.footer .business, .footer .orders{
+        height: 250px;
+    }
+}
+@media (max-width:620px){
+    .navBar{
+        width: 100%;
+        height: 80px;
+        margin: 0;
+    }
+    .logobox{
+        width: 40px;
+        height: 40px;
+    }
+    .logo{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .itemsLeft{
+        margin-right: 10%;
+    }
+    .main-content{
+        width: 550px;
+    }
+    .darklightMode label i {
+        transform: scale(1.7);
+    }
+    .hamburgerMenu i{
+        transform: scale(1.5);
+    }
+    .cards{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .card1, .card2, .card3, .card4{
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        height: 780px;
+        margin: 20px 20px;
+    }
+    .card1-box, .card2-box, .card3-box, .card4-box{
+        width: 100%;
+        padding: 30px 50px;
+    }
+    .card1-img, .card2-img, .card3-img, .card4-img{
+        height: 350px;
+        width: 350px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .card3-img{
+        background-size: contain;
+    }
+    .infobox{
+        padding: 0px 40px;
+        text-align: justify;
+    }
+}

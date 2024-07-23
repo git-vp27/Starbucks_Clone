@@ -1,0 +1,108 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+#rewards-pg-rewards{
+    background-color: brown;
+}
+#rewards-pg-rewards a{
+    color: white;
+}
+
+/* Main Content */
+.content-rewards-box{
+    width: 100%;
+    padding: 50px 0;
+}
+.content-rewards-box h1, .content-rewards-box p{
+    text-align: center;
+    font-family: cursive;
+    line-height: 1.8;
+}
+.info-box-rewards-pg{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+.inner-info-box{
+    width: 30%;
+    text-align: center;
+}
+.inner-info-box div{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 4px solid brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: cursive;
+    margin-bottom: 20px;
+}
+.inner-info-box h2{
+    margin-bottom: 10px;
+}
+
+/* Get Fav */
+
+.get-fav-items{
+    width: 100%;
+    padding: 80px 0;
+    background-color: #d3e8e154;
+}
+.get-fav-items h1{
+    margin-bottom: 20px;
+    font-family: cursive;
+    text-align: center;
+}
+.item-star{
+    width: 20%;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+.star-no{
+    font-family: cursive;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.star-no sub{
+    color: brown;
+}
+.customize-drink{
+    margin-top: 15px;
+    display: flex;
+    width: 50%;
+    background-color: rgba(165, 42, 42, 0.364);
+    padding: 0px 10px 15px 0;
+    border-radius: 10px;
+}
+.customize-drink h2, .customize-drink p{
+    margin-bottom: 10px;
+    font-family: cursive;
+}
+.customize-drink h2{
+    color: brown;
+}
+.custom-drink-img{
+    height: 200px;
+    background-image: url("https://www.starbucks.com/weblx/images/rewards/reward-tiers/25.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.customize-drink div{
+    width: 50%;
+}
+.custom-drink-txt{
+    padding-top: 50px;
+}
+
+input[type="checkbox"]:checked ~ .main-content .get-fav-items h1{
+    color: white;
+}
+input[type="checkbox"]:checked ~ .main-content .item-star sub{
+    color: yellow;
+}

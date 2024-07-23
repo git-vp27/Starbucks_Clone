@@ -1,0 +1,346 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+}
+/* ----------------------- Navigation bar ----------------------- */
+
+.navBar{
+    height: 90px;
+    width: 100%;
+    box-shadow: 0px 5px 10px rgba(165, 42, 42, 0.956);
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    background-color: white;
+    display: flex;
+}
+.logo{
+    height: 90px;
+    width: 150px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logobox{
+    margin: 0;
+    height: 60px;
+    width: 60px;
+    background-image: url("StarBucks_logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.itemsLeft{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    margin-right: 30%;
+}
+.navLeft{
+    color: #000000DE;
+    font-weight: 800;
+    font-size: 14px;
+    letter-spacing: 2px;
+    height: 100%;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navLeft a{
+    text-decoration: none;
+    color: black;
+}
+.itemsRight{
+    flex-grow: 2;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    align-self: flex-end;
+}
+.loc-logo i{
+    transform: scale(1.6);
+}
+.findStore{
+    flex-basis: 150px;
+}
+.fstext{
+    font-weight: 500;
+    font-size: 1rem;
+    margin-right: 30px;
+    margin-left: 5px;
+}
+.itemsRight div{
+    width: 110px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+div>button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-weight: 600;
+    background-color: white;
+}
+#signIn{
+    transition: 0.5s;
+}
+#joinNow{
+    background-color: black;
+    color: white;
+    margin-left: 0;
+    transition: 0.5s;
+}
+
+.darklightMode label i {
+    transform: scale(2.8);
+}
+#off{
+    margin-left: 30px;
+}
+.darklightMode label i:hover{
+    cursor: pointer;
+}
+#on{
+    margin-right: 30px;
+    display: none;
+}
+input[type="checkbox"]:checked ~ .navBar #on{
+    display:inline-block;
+}
+input[type="checkbox"]:checked ~ .navBar #off{
+    display: none;
+}
+.hamburgerMenu i{
+    display: none;
+    transform: scale(2.4);
+}
+
+/* ----------------------- Cards Section ----------------------- */
+
+.cards{
+    width: 95%;
+    padding-top: 50px;
+}
+.card1, .card2, .card3, .card4{
+    display: flex;
+    margin-bottom: 30px;
+}
+.card1-box, .card2-box, .card3-box, .card4-box{
+    width: 50%;
+    text-align: center;
+    padding: 50px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards h1, .cards button{
+    margin: 20px 0;
+}
+.cards p{
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 1.5;
+}
+.cards button {
+    color: white;
+    border: 1px solid white;
+    width: 150px;
+    background-color: transparent;
+}
+#learn{
+    color: black;
+    border: 1px solid black;
+}
+.card1-img, .card2-img, .card3-img, .card4-img{
+    width: 50%;
+    background-size: cover;
+}
+.card1{
+    color: white;
+    height: 400px;
+}
+.card2{
+    color: white;
+    height: 600px;
+    
+}
+.card3{
+    color: black;
+    height: 400px;
+}
+.card4{
+    color: white;
+    height: 620px;
+}
+.card1-img {
+    background-image: url("https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-93130.jpg");
+}
+.card2-img{
+    background-image: url("https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-92996.jpg");
+}
+.card3-img{
+    background-image: url("https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-92707.jpg");
+}
+.card4-img{
+    background-image: url("egift.jpg");
+}
+.card1-box{
+    background-color: #006241;
+}
+.card3-box{
+    background-color: #d3eae2;
+}
+.card2-box, .card4-box{
+    background-color: #a3029a;
+}
+.card2-box h1, .card4-box h1{
+    font-size: 3rem;
+}
+.card2-box p, .card4-box p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 10px 0;
+}
+.card1-box h1, .card3-box h1{
+    font-size: 3rem;
+}
+.card1-box p, .card3-box p{
+    margin: 10px 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+/* ----------------------- Info Box ----------------------- */
+
+.infobox{
+    text-align: center;
+    margin: 80px 0 50px 0;
+    padding: 0px 100px;
+    font-size: 1.3rem;
+    line-height: 1.4;
+}
+
+/* ----------------------- Footer 1 ----------------------- */
+.footer{
+    width: 100%;
+    display: flex;
+    padding: 50px 200px 50px 5px;
+}
+.footer div{
+    height: 360px;
+}
+.footer h2 {
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 1.3rem;
+    margin-left: 40px;
+}
+
+.footer ul li {
+    list-style: none;
+    opacity: 0.6;
+    font-size: 1rem;
+    margin-bottom: 25px;
+    transition: 0.5s;
+}
+.footer ul li:hover{
+    transform: translateX(10px);
+    cursor: pointer;
+    color: #a3029a;
+}
+
+hr{
+    width: 85%;
+    box-shadow: 0px 1px 8px brown;
+}
+
+/* ----------------------- Footer 2 ----------------------- */
+.footer-main{
+    width: 100%;
+    height: 510px;
+    padding: 30px 25px 0px 25px;
+    margin-bottom: 50px;
+}
+.footer-main ul li {
+    list-style: none;
+    margin-bottom: 25px;
+}
+.footer-main .contact-logos{
+    display: flex;
+    width: 400px;
+    justify-content: flex-start;
+    margin-right: 78%;
+}
+.contact-logos i{
+    transition: 0.5s;
+    margin: 0px 10px 0px 0px;
+    font-size: 2.8rem;
+}
+.contact-logos i:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.footer-main ul li a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: black;
+    padding-left: 5px;
+}
+#copyright{
+    background-color: #d3eae2;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
+    font-weight: 600;
+    font-family: cursive;
+    font-size: 1.2rem;
+    color: black;
+}
+
+/* ----------------------- Dark Mode & Effects ----------------------- */
+.main-content{
+    transition: 0.5s;
+    padding-bottom: 5px;
+}
+input[type="checkbox"]:checked ~ .main-content{
+    background-color: rgba(0, 0, 0, 0.926);
+    color: rgba(255, 255, 255, 0.612);
+}
+input[type="checkbox"]:checked ~ .main-content a{
+    color: rgba(255, 255, 255, 0.625);
+}
+input[type="checkbox"]:checked ~ .main-content a:hover{
+    color: white;
+}
+input[type="checkbox"]{
+    display: none;
+}
+input[type="checkbox"]:checked ~ .main-content div i, input[type="checkbox"]:checked ~ .main-content div h2{
+    color: white;
+}
+
+.navLeft a:hover, .fstext:hover, .findStore:hover{
+    color: brown;
+    cursor: pointer;
+}
+#signIn:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+#joinNow:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
+}
+button:hover{
+    cursor: pointer;
+}
