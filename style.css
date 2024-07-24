@@ -119,9 +119,11 @@ input[type="checkbox"]:checked ~ .navBar #off{
     display: flex;
     align-items: center;
     height: 90px;
+    width: 30px;
 }
 .hamburgerMenu i{
     display: none;
+    cursor: pointer;
     transform: scale(2.4);
 }
 #hamMenu-box{
@@ -132,7 +134,7 @@ input[type="checkbox"]:checked ~ .navBar #off{
     right: 20px;
     top: 90px;
     padding-top: 10px;
-    height: 170px;
+    height: 200px;
     border-radius: 10px;
     transition: 1s;
 }
@@ -148,6 +150,10 @@ input[type="checkbox"]:checked ~ .navBar #off{
 }
 .hamburgerMenu:hover ~ #hamMenu-box, #hamMenu-box:hover{
     display: inline-block;
+}
+#hamMenu-box a:hover{
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.495);
 }
 
 /* ----------------------- Cards Section ----------------------- */
